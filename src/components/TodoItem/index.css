@@ -1,0 +1,54 @@
+.item-container {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-text-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  height: 2vh;
+  width: 2vw;
+}
+
+.item-details {
+  color: #000000;
+  font-size: 22px;
+  font-family: 'Roboto';
+  padding-right: 15px;
+  padding-left: 8px;
+}
+
+.delete-button {
+  height: 36px;
+  width: 120px;
+  background-color: transparent;
+  color: #ff0b37;
+  font-size: 16px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  border: #ff0b37 2px outset;
+  margin-left: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.title-text {
+  height: 5vh;
+  width: 26vw;
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Roboto';
+  padding-left: 5px;
+  border: 2px #ffc2a0 solid;
+  outline: none;
+}
